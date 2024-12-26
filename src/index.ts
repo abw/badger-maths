@@ -1,1 +1,6 @@
-export * from './maths'
+export * from './reduce'
+export * from './add'
+export * from './subtract'
+export * from './multiply'
+export * from './divide'
+export * from './clamp'

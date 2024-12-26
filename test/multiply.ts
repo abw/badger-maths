@@ -15,3 +15,8 @@ test(
   'multiply(3.0, 2.2, 2.0)',
   () => expect(multiply(3.0, 2.2, 2.0)).toBe(13.2)
 )
+
+test(
+  'multiply(0.55, 100)',
+  () => expect(multiply(0.55, 100)).toBe(55)
+)

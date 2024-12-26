@@ -20,3 +20,8 @@ test(
   'clamp(0.5, 0, 1)',
   () => expect(clamp(0.5, 0, 1)).toBe(0.5)
 )
+
+test(
+  'clamp(1.5, 0, 1)',
+  () => expect(clamp(1.5, 0, 1)).toBe(1)
+)

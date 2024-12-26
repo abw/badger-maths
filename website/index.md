@@ -43,7 +43,8 @@ It's one preciser.
 For the theory behind this, see
 https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
 
-These functions were adapted from the code in [Sinful.js](https://github.com/guipn/sinful.js).
+These functions were originally adapted from the code in [Sinful.js](https://github.com/guipn/sinful.js).
+They are now implemented as wrappers around [Big.js](https://github.com/MikeMcl/big.js/).
 
 ## Opinionated and Selfish Software
 
