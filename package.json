@@ -1,5 +1,5 @@
 {
-  "name": "badger-maths",
+  "name": "@abw/badger-maths",
   "version": "0.0.1",
   "type": "module",
   "types": "./dist/index.d.ts",
