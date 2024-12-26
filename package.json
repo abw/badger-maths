@@ -6,14 +6,14 @@
   "files": [
     "dist"
   ],
-  "main": "dist/my-test-library.umd.cjs",
-  "module": "dist/my-test-library.js",
+  "main": "dist/badger-maths.umd.cjs",
+  "module": "dist/badger-maths.js",
   "exports": {
     ".": {
-      "require": "./dist/my-test-library.umd.cjs",
+      "require": "./dist/badger-maths.umd.cjs",
       "import": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/my-test-library.js"
+        "default": "./dist/badger-maths.js"
       }
     }
   },
@@ -24,14 +24,19 @@
     "build:lib": "tsc && vite build",
     "build:docs": "vitepress build website",
     "test": "vitest --ui --coverage",
+    "Xlint": "eslint 'src/**/*' 'test/**/*'",
     "lint": "eslint 'src/**/*' 'test/**/*'",
     "pretest": "$npm_execpath build:lib"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.17.0",
     "@vitest/coverage-v8": "^2.1.8",
     "@vitest/ui": "^2.1.8",
     "eslint": "^9.17.0",
+    "globals": "^15.14.0",
     "typescript": "~5.6.2",
+    "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5",
     "vite-plugin-dts": "^4.4.0",
     "vitepress": "^1.5.0",
