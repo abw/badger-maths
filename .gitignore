@@ -6,3 +6,5 @@ pnpm-debug.log*
 !.vscode/extensions.json
 .DS_Store
 tmp
+website/.vitepress/dist
+website/.vitepress/cache
