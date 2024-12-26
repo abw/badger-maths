@@ -5,7 +5,7 @@ import { bigReduce } from './reduce'
  * @param {...number} args - numbers to subtract
  * @returns {number} - the result of adding the numbers
  * @example
- * sub(7.8, 0.1, 2.4);  // 5.3
+ * subtract(7.8, 0.1, 2.4);  // 5.3
  */
 export const subtract = (...args: number[]): number =>
   bigReduce('minus', args)
