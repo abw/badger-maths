@@ -17,6 +17,16 @@
       }
     }
   },
+  "author": "Andy Wardley",
+  "license": "MIT",
+  "homepage": "https://badgerpower.com/badger-maths/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abw/badger-maths.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abw/badger-maths/issues"
+  },
   "scripts": {
     "dev": "vitepress dev website",
     "preview": "vitepress preview website",
@@ -24,7 +34,6 @@
     "build:lib": "tsc && vite build",
     "build:docs": "vitepress build website",
     "test": "vitest --ui --coverage",
-    "Xlint": "eslint 'src/**/*' 'test/**/*'",
     "lint": "eslint 'src/**/*' 'test/**/*'",
     "pretest": "$npm_execpath build:lib"
   },
